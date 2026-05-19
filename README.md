@@ -13,3 +13,4 @@ Open CMD Prompt <br>
 (Creates http server - serves the files) <br>
 Now go to your browser and open the link - should be hosted on it now. Progress should save. <br>
 [http://localhost:4114/](http://localhost:4114/)
+# No idea how to do on mac. someone help
