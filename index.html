@@ -7,7 +7,10 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PXHK7Q7G3Z"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'G-PXHK7Q7G3Z');
 </script>
@@ -23,7 +26,7 @@ function gp(f,s,e){return Array.from({length:e-s+1},(_,i)=>`${f}.part${s+i}`);}
 (async()=>{
   const[du,wu]=await Promise.all([mf(gp('Build/hktruffled.data',1,45)),mf(gp('Build/hktruffled.wasm',1,2))]);
   const sc=document.createElement('script');sc.src='Build/hktruffled.loader.js';
-  sc.onload=()=>createUnityInstance(cv,{dataUrl:du,frameworkUrl:'Build/hktruffled.framework.js',codeUrl:wu,streamingAssetsUrl:'StreamingAssets',companyName:'Team Cherry',productName:'Hollow Knight',productVersion:'1.0',memory:384*1024*1024,useWebGL2:true,devicePixelRatio:window.devicePixelRatio,webglContextAttributes:{antialias:true,alpha:false,depth:true,stencil:false,premultipliedAlpha:false,preserveDrawingBuffer:false,desynchronized:true}}).then(()=>{lt.remove();addButtons();}).catch(alert);
+  sc.onload=()=>createUnityInstance(cv,{dataUrl:du,frameworkUrl:'Build/hktruffled.framework.js',codeUrl:wu,streamingAssetsUrl:'StreamingAssets',companyName:'Team Cherry',productName:'Hollow Knight',productVersion:'1.0',memory:384*1024*1024,useWebGL2:true,webglContextAttributes:{antialias:false,alpha:false,depth:true,stencil:false,premultipliedAlpha:false,preserveDrawingBuffer:false,desynchronized:true}}).then(()=>{lt.remove();addButtons();}).catch(alert);
   document.body.appendChild(sc);
 })();
 
