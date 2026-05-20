@@ -3,6 +3,7 @@ doing some maintenance on hollow knight hah!
 Fix all sounds and dreamers. Hopefully.
 
 ## Run At Ultra Fast Speed Locally On 4K 120FPS
+I made some adjustments for really good quality<br>
 Open CMD Prompt <br>
 > Run Following Commands <br>
 `git clone https://github.com/Katsugachi/Maintenance` <br>
