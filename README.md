@@ -1,6 +1,6 @@
 # Maintenance
 doing some maintenance on hollow knight hah!
-Fixed all cutscenes, sounds and dreamers. Hopefully.
+Fix all sounds and dreamers. Hopefully.
 
 ## Run At Ultra Fast Speed Locally On 4K 120FPS
 Open CMD Prompt <br>
